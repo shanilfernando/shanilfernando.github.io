@@ -32,9 +32,9 @@
             });
             return result;
         }
-
-        var trans = getCSSStyles(document.getElementById('xiuli'), 'transition', 'transition-delay', 'transition-duration', 'transition-property', 'transition-timing-function');
-        console.log(trans);
+        var xiuli = document.getElementById('xiuli');
+        var trans = getCSSStyles(xiuli, 'transition', 'transition-delay', 'transition-duration', 'transition-property', 'transition-timing-function');
+        xiuli.innerHTML = JSON.stringify(trans);
     </script>
 </body>
 
