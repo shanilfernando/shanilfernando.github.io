@@ -33,13 +33,14 @@
 #section5,
 #section6 {
     width: 60vw;
-    min-width: 601px;
+    min-width:360px;
     height: 60vh;
     position: absolute;
     div{
         color: $light;
     }
     background: rgba($primary,0.2);
+    overflow: auto;
 }
 
 /* DEMO-SPECIFIC STYLES */
